@@ -50,6 +50,8 @@ dependencies {
     implementation(Libs.gson)
     implementation(Libs.gsonConverter)
 
+    implementation(Libs.coroutines)
+
     implementation(Libs.leakCanary)
 
 

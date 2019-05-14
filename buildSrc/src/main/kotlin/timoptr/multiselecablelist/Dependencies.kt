@@ -7,7 +7,7 @@ package timoptr.multiselectablelist
 
 object Versions {
     //Language
-    const val kotlin = "1.3.10"
+    const val kotlin = "1.3.31"
     const val jacocoTool = "0.8.1"
 
     const val espresso = "3.1.0-beta01"
@@ -32,6 +32,7 @@ object Versions {
     const val loggingInterceptor = "3.10.0"
     const val gsonConverter = "2.4.0"
     const val leakCanary = "1.6.2"
+    const val coroutinesAndroid = "1.1.0"
 }
 
 object Libs {
@@ -65,4 +66,5 @@ object Libs {
     const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}"
     const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
     const val gsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.gsonConverter}"
+    const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesAndroid}"
 }
